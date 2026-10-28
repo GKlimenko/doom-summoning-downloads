@@ -1,0 +1,300 @@
+The Storm and the Crown
+
+Created and directed by Georgii Klimenko
+
+Game design, story direction and testing
+
+AI-assisted development and dialogue: OpenAI Codex
+
+
+
+Marvel inspiration
+
+Inspired by Marvel Comics and its cinematic worlds.
+
+Doctor Doom, Thor, Sentinels, Latveria, Bifrost and Battleworld are Marvel characters and settings.
+
+An unofficial fan-made experience, not affiliated with Marvel.
+
+
+
+Orchestral music
+
+'The Summoning' and 'Goliath'
+
+Composed by Scott Buckley
+
+Released under CC BY 4.0
+
+www.scottbuckley.com.au
+
+Edited excerpts, fades and level matching for this game.
+
+
+
+Voices and animation
+
+Original custom character performances: ElevenLabs
+
+Doom, Thor and Latverian witch voices
+
+Animation source: Adobe Mixamo
+
+Retargeting, sequencing and combat integration: this project
+
+
+
+Lightning and magic
+
+Lightning VFX: Mirza Beig
+
+Purchased Unity Asset Store package
+
+Additional procedural magic, shaders, Bifrost apparatus and effects: this project
+
+
+
+Model sources
+
+Thor, Doom, mask, Latverian witch, Stormbreaker and rigged Sentinel models supplied by Georgii Klimenko.
+
+Original artist names were not included with these files; source filenames are recorded in the source manifest.
+
+
+
+Additional Sentinel source
+
+Sentinel (XMO Wolverine Game)
+
+Shared by LombaxLover2K on Sketchfab
+
+CC BY 4.0
+
+Modified mesh, segmented limbs and Doom-themed materials.
+
+Full model URL is included in the source manifest.
+
+
+
+Typography
+
+Grenze: Renata Polastri and Omnibus-Type
+
+Previous UnifrakturCook: j. mach wust and Peter Wiegel
+
+Liberation Sans fallback: see bundled OFL notice
+
+Font license notices included with the project.
+
+
+
+Earth imagery
+
+Blue Marble Next Generation, January 2004
+
+NASA Earth Observatory
+
+Reto Stockli, NASA Goddard Space Flight Center
+
+Source: science.nasa.gov
+
+No NASA endorsement is implied.
+
+
+
+Technology and audio tools
+
+Unity, Universal Render Pipeline and TextMesh Pro
+
+Meta XR SDK and Quest hand/body/room tracking
+
+OpenXR
+
+Earlier synthesized score and sound tools: Specs Inc., Apache 2.0
+
+Audio preparation: FFmpeg / imageio-ffmpeg
+
+
+
+Thank you for playing
+
+A personal fan project by Georgii Klimenko.
+
+All verified asset sources and notices are recorded in the bundled source manifest.
+
+Return to battle or replay the complete ritual below.
+
+
+
+Source links and files
+
+Music: https://www.scottbuckley.com.au/library/the-summoning/
+
+https://www.scottbuckley.com.au/library/goliath/
+
+License: https://creativecommons.org/licenses/by/4.0/
+
+Music edits: cue excerpts, fades and loudness matching. Exact cue offsets in MusicCueSources.json.
+
+Grenze: https://github.com/Omnibus-Type/Grenze
+
+Font authors: Renata Polastri, Omnibus-Type. SIL OFL 1.1; bundled in Fonts/Grenze-OFL.txt.
+
+Sentinel additional imported source: https://sketchfab.com/3d-models/sentinel-xmo-wolverine-game-cc6f356e87e5453e9c754deea49a03e8
+
+CC BY 4.0; converted mesh, segmented limbs and changed materials. This source is distinct from the later user-supplied rigged Sentinel.fbx.
+
+Earth imagery: Blue Marble Next Generation, January 2004. NASA Earth Observatory / Reto Stockli, NASA Goddard Space Flight Center. Source: https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/
+
+Asset: https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-base/january/world.200401.3x5400x2700.jpg
+
+No NASA endorsement is implied.
+
+
+
+User-supplied original model files: source/Thor.fbx; source/Storm Breaker.fbx; source/Doctor doom maskLP.fbx; source/Latverian Witch.rar; source/Sentinel.fbx; Import/DoomAvatar/DokDoom.fbx. Original author/source URL metadata not supplied for these files; not attributed to an invented artist.
+
+Adobe Mixamo animations imported by the user: Standing Idle, Standing Melee Attack Downward, Standing Melee Run Jump Attack, Standing React Large From Left, Standing Run Forward, Standing Walk Back, Sword And Shield Casting, Throw, Two Handed Sword Death, Livershot Knockdown.
+
+Mirza Beig Lightning VFX: https://assetstore.unity.com/packages/vfx/particles/lightning-vfx-urp-262502
+
+Installed package readme: Assets/Mirza Beig/Lightning VFX/README.txt.
+
+Voice authoring: official @elevenlabs/elevenlabs-js SDK; approved original custom voices. No actor voice cloning used.
+
+Visual inspiration supplied by the user: Marvel trailer https://www.youtube.com/watch?v=X1aFkAkFASk ; sigil reference https://www.youtube.com/watch?v=Eptcr76JseY ; ground-magic reference https://www.instagram.com/reel/DejzvGUAZVJ/ ; user-supplied Battleworld and throne comic references. These references are not claims that their creators participated in this game.
+
+Full runtime dependencies are declared in Packages/manifest.json and their package notices. No music purchase or subscription was made.
+
+
+
+Installed Unity package manifest (includes tools and modules; presence does not imply every package contributes shipped content):
+
+com.meta.xr.sdk.core @ 207.0.1
+
+com.unity.ai.navigation @ 2.0.12
+
+com.unity.collab-proxy @ 2.12.4
+
+com.unity.ide.rider @ 3.0.40
+
+com.unity.ide.visualstudio @ 2.0.27
+
+com.unity.inputsystem @ 1.19.0
+
+com.unity.multiplayer.center @ 1.0.1
+
+com.unity.pipeline @ 0.8.0-exp.1
+
+com.unity.render-pipelines.universal @ 17.4.0
+
+com.unity.test-framework @ 1.6.0
+
+com.unity.timeline @ 1.8.12
+
+com.unity.ugui @ 2.0.0
+
+com.unity.visualscripting @ 1.9.11
+
+com.unity.xr.openxr @ 1.18.0
+
+com.unity.modules.accessibility @ 1.0.0
+
+com.unity.modules.adaptiveperformance @ 1.0.0
+
+com.unity.modules.ai @ 1.0.0
+
+com.unity.modules.androidjni @ 1.0.0
+
+com.unity.modules.animation @ 1.0.0
+
+com.unity.modules.assetbundle @ 1.0.0
+
+com.unity.modules.audio @ 1.0.0
+
+com.unity.modules.cloth @ 1.0.0
+
+com.unity.modules.director @ 1.0.0
+
+com.unity.modules.imageconversion @ 1.0.0
+
+com.unity.modules.imgui @ 1.0.0
+
+com.unity.modules.jsonserialize @ 1.0.0
+
+com.unity.modules.particlesystem @ 1.0.0
+
+com.unity.modules.physics @ 1.0.0
+
+com.unity.modules.physics2d @ 1.0.0
+
+com.unity.modules.screencapture @ 1.0.0
+
+com.unity.modules.terrain @ 1.0.0
+
+com.unity.modules.terrainphysics @ 1.0.0
+
+com.unity.modules.tilemap @ 1.0.0
+
+com.unity.modules.ui @ 1.0.0
+
+com.unity.modules.uielements @ 1.0.0
+
+com.unity.modules.umbra @ 1.0.0
+
+com.unity.modules.unityanalytics @ 1.0.0
+
+com.unity.modules.unitywebrequest @ 1.0.0
+
+com.unity.modules.unitywebrequestassetbundle @ 1.0.0
+
+com.unity.modules.unitywebrequestaudio @ 1.0.0
+
+com.unity.modules.unitywebrequesttexture @ 1.0.0
+
+com.unity.modules.unitywebrequestwww @ 1.0.0
+
+com.unity.modules.vectorgraphics @ 1.0.0
+
+com.unity.modules.vehicles @ 1.0.0
+
+com.unity.modules.video @ 1.0.0
+
+com.unity.modules.vr @ 1.0.0
+
+com.unity.modules.wind @ 1.0.0
+
+com.unity.modules.xr @ 1.0.0
+
+
+
+v0.22 additional procedural sounds: WorldGrab, WorldTension, WorldCollision, WorldBirth, SentinelAwaken, SentinelStrike, SentinelStep1-3. Generated locally using Specs Inc. build-sfx tools (Apache 2.0).
+
+
+
+Cormorant SC: Christian Thalmann, Catharsis Fonts. SIL OFL 1.1. https://github.com/google/fonts/tree/main/ofl/cormorantsc ; bundled Fonts/CormorantSC-OFL.txt.
+
+
+
+Added v0.23: Poly Haven Modular Fort 01 by Rico Cilliers (CC0), https://polyhaven.com/a/modular_fort_01 ; Large Castle Door by Tina (CC0), https://polyhaven.com/a/large_castle_door . User supplied original .blend files and textures. Converted to FBX with Blender 4.5.3; selected four parts, normalized scale, compressed textures capped at 2K.
+
+Additional user-supplied Mixamo clips: Climbing.fbx, Dodging left.fbx, Dodging Right.fbx, Smash.fbx, smash 2.fbx.
+
+Thor battle cry: original wordless ElevenLabs performance in the approved storm-warrior voice.
+
+
+
+Universal Animation Library 2 Standard — Quaternius. CC0 1.0 Universal. https://quaternius.com/packs/universalanimationlibrary2.html
+
+
+Bifrost sword: user-supplied Sword_lowpoly.fbx and M_Sword textures. Original creator/license metadata not included; retain the original download license.
+
+'Eyes In The Void' by Scott Buckley — released under CC-BY 4.0. www.scottbuckley.com.au
+https://www.scottbuckley.com.au/library/eyes-in-the-void/
+Adapted for three battle phases: excerpts, loop crossfades and level adjustments.
+
+Sentinel emergence: Kenney, Sci-fi Sounds 1.0 (2020), CC0 1.0. https://kenney.nl/assets/sci-fi-sounds . Source samples doorOpen_000.ogg, engineCircular_000.ogg, impactMetal_000.ogg; pitch adjusted and layered locally. Original license retained in StorySFX/Kenney_LICENSE.txt.
+
+v0.38 Sentinel creature-metal awakening: Monster roar by colorsCrimsonTears, Freesound #537883, CC0 1.0, https://freesound.org/people/colorsCrimsonTears/sounds/537883/ . Public high-quality preview source used, pitched to 68%, layered with Kenney metal/engine and amplitude modulated.
+
+v0.39 throne: user-supplied Meshy_AI_Root_Throne_3D_20261028_image-to-3d-texture.fbx with supplied base color and normal map (2K runtime cap). Optimized offline with PyMeshLab texture-preserving quadric decimation: 1,684,492 to 110,000 triangles. Sitting Gun Motion.fbx: user-supplied Mixamo animation, 4.8 seconds, retargeted and sampled to 17 Doom bones. fortnite_doctor_doom.glb has no skin or animations and is not used as a moving avatar.
